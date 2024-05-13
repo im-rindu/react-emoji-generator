@@ -64,10 +64,10 @@ const EmojiPage = () => {
             <section
               id={`${index}`}
               key={index}
-              className="flex h-screen w-screen items-center justify-center"
+              className="flex h-screen w-screen items-center justify-center p-8"
             >
               <div
-                className="text-9xl"
+                className="text-9xl p-12"
                 dangerouslySetInnerHTML={{ __html: theEmoji[0] }}
               />
             </section>
