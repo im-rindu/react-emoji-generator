@@ -49,7 +49,7 @@ const EmojiPage = () => {
               }}
             >
               <div
-                className="text-9xl"
+                className="text-9xl p-8"
                 dangerouslySetInnerHTML={{
                   __html: localStorage?.getItem("emoji") || "&#128515;",
                 }}
